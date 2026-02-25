@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebraic Synthesis of the Indian Flag - Lalit Mehta</title>
+    <style>
+        body { font-family: 'Times New Roman', serif; line-height: 1.8; color: #1a1a1a; max-width: 850px; margin: 0 auto; padding: 50px 25px; background-color: #fff; }
+        header { text-align: center; border-bottom: 3px double #333; padding-bottom: 30px; margin-bottom: 50px; }
+        h1 { font-size: 2.2em; color: #000080; margin-bottom: 10px; }
+        .author { font-size: 1.3em; font-weight: bold; }
+        h2 { border-left: 6px solid #ff9933; padding-left: 15px; margin-top: 50px; color: #000080; }
+        .image-container { text-align: center; margin: 40px 0; background: #fafafa; border: 1px solid #eee; padding: 15px; }
+        img { max-width: 100%; height: auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.9em; color: #666; font-style: italic; margin-top: 10px; }
+        .embed-container { margin: 50px 0; border: 2px solid #000080; border-radius: 10px; overflow: hidden; }
+        .note { background: #f4f7f9; border-left: 5px solid #138808; padding: 20px; margin: 30px 0; }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>Rigorous Algebraic Synthesis of the Indian National Flag</h1>
+    <p class="author">Lalit Mehta</p>
+    <p>1:1 Scale Precision Coordinate Geometry Challenge</p>
+</header>
+
+<section>
+    <div class="image-container">
+        <img src="Screenshot_2026_0225_173345.jpg" alt="Vertex Mapping">
+        <p class="caption">Figure 1: Initial coordinate mapping and vertex synthesis for the 24-spoke Ashoka Chakra.</p>
+    </div>
+</section>
+
+<section>
+    <h2>I. Project Methodology</h2>
+    <p>This project was executed as a formal challenge to recreate the National Flag of India at a 1:1 scale using 100% algebraic equations. Following the official construction sheet, the flag width is set to 900 units, resulting in a 3:2 aspect ratio. Every horizontal band and every detail of the Chakra was calculated using strictly coordinate geometry.</p>
+</section>
+
+<section>
+    <h2>II. Interactive Algebraic Workspace</h2>
+    <div class="embed-container">
+        <iframe src="https://www.desmos.com/calculator/wa6z9xyvln?embed" width="100%" height="600" frameborder=0></iframe>
+    </div>
+    <p style="text-align:center;"><i>Live Desmos workspace demonstrating list-based transformations and real-time algebraic rendering.</i></p>
+</section>
+
+<section>
+    <h2>III. The Rendering Paradox: Infinite Slopes</h2>
+    <p>A significant technical discovery during this project was the failure of standard inequalities to render solid regions at vertical angles ($90^\circ$ and $270^\circ$). Mathematically, the slope approaches infinity, causing modern graphing engines to leave these regions uncolored.</p>
+
+    <div class="image-container">
+        <img src="Screenshot_2026_0225_173514.jpg" alt="Infinite Slope Visualization">
+        <p class="caption">Figure 2: Analysis of rendering artifacts caused by infinite slopes in the vertical domain.</p>
+    </div>
+
+    <div class="note">
+        <strong>Scientific Note:</strong> While the underlying logic remained strictly algebraic throughout the process, the <code>polygon</code> function was utilized for final presentation to bypass these software-specific pixel-sampling limitations.
+    </div>
+</section>
+
+<section>
+    <h2>IV. Conclusion</h2>
+    <p>By combining engineering standards with vector geometry, this 1:1 scale model serves as a resolution-independent mathematical representation of the Indian National Flag.</p>
+</section>
+
+</body>
+</html>
